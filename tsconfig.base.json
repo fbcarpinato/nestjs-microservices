@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nestjs-microservices/api/dto": ["libs/api/dto/src/index.ts"],
+      "@nestjs-microservices/api/entities": ["libs/api/entities/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
